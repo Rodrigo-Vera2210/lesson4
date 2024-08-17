@@ -9,7 +9,7 @@ on:
 jobs:
   my_self-hosted_job:
     name: my self hosted job
-    runs_on: self-hosted 
+    runs-on: self-hosted 
     steps:
       -  name: step in a self-hosted runner
          id: selfHostedId
@@ -17,6 +17,7 @@ jobs:
          run:
            echo this is a multiline comment
            echo and this job has been 
+  
   a_simple_job:
     name: my simple job name
     runs-on: ubuntu-latest
