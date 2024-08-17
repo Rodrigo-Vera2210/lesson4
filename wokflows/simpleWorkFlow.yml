@@ -1,8 +1,9 @@
 name: workflow overview
  
 on:
-  worflow_dispatch:
-join:
+  workflow_dispatch:
+
+jobs:
   a_simple_job:
     name: my simple job name
     runs-on: ubuntu-latest
