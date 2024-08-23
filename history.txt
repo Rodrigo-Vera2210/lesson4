@@ -1,0 +1,30 @@
+    2  ls
+    3  cd /usr
+    4  ls
+    5  sudo tar jxvf linux-source-2.6.28.tar.bz2 
+    6  sudo tar jxvf linux-source-5.15.0.tar.bz2 
+    7  cd /src
+    8  ls
+    9  cd src
+   10  sudo tar jxvf linux-source-5.15.0.tar.bz2 
+   11  sudo cp /boot/config-5.15.0-15-generic .config
+   12  sudo cp /boot/config-5.15.0-generic .config
+   13  cd ..
+   14  sudo cp /boot/config-5.15.0-generic .config
+   15  ls
+   16  cd ..
+   17  ls
+   18  sudo cp /boot/config-5.15.0-generic .config
+   19  cd /boot
+   20  ls
+   21  cd ..
+   22  cd usr
+   23  cd ..
+   24  sudo cp /boot/config-5.15.0-generic .config
+   25  sudo cp /boot/config-5.15.0-17-generic .config
+   26  clear
+   27  sudo apt-get install build-essential kernel-package libncurses5-dev 
+   28  sudo apt-get install linux-source 
+   29  sudo tar jxvf linux-source-2.6.28.tar.bz2
+   30  sudo tar jxvf linux-source-5.15.0.tar.bz2
+   31  sudo tar jxvf /usr/src/linux-source-5.15.0.tar.bz2
